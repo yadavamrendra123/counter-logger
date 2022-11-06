@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.card{
+    padding: 20px;
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgb(100,110,155);
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#increment-btn{
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+    color: white;
+    background: #166da4;
+    font-weight: bold;
+    letter-spacing: 2px;
+    
+
+}
+#save-btn{
+    width: 200px;
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+    color: white;
+    background: #1ce62d;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+
+#increment-btn:hover{
+    cursor: pointer;
+}
+#save-btn:hover{
+   cursor: pointer;
+}
